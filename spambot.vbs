@@ -19,7 +19,7 @@ wscript.sleep strspeed
 Next
 shell.sendkeys ("Spambot is now ded :(" & "{enter}")
 wscript.sleep strspeed * strtimes / 10
-returnvalue=MsgBox ("Want to spam again with the same info?",36)
+returnvalue=MsgBox ("Want to spam again with the same info?",36)   
 If returnvalue=6 Then
 Msgbox "Ok Spambot will activate again"
 End If
